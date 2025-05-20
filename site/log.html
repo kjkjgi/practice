@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Журнал</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <header>
+    <nav>
+        <div class="logo">
+            <img src="logo.png" alt="Логотип Политеха">
+        </div>
+
+        <div class="project-title">ИТ-сервисы для Цифрового университета</div>
+
+        <div class="menu">
+            <a href="main.html">Главная</a>
+            <a href="about.html">О проекте</a>
+            <a href="members.html">Участники</a>
+            <a href="log.html">Журнал</a>
+            <a href="resource.html">Ресурсы</a>
+        </div>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h1>Журнал</h1>
+  </section>
+
+  <article class="news-item">
+    <div class="news-header">
+      <h2 class="news-title">"Политайм". Промежуточные результаты</h2>
+      <span class="news-date">26 апреля 2025</span>
+    </div>
+
+    <p class="news-description">
+      Продолжается работа над реализацией минимального функционала для сервиса политайм.
+      Была разработана база данных и MVP серверной части. Выполнена документация
+      API, регистрация и авторизация с ипользованием jwt токенов, а также подтверждение
+      почты и рассылка email'ов. Команда дизайна представила свои наработки.
+    </p>
+
+    <div class="news-gallery">
+      <img src="polytime_design.png" alt="Скриншот 1">
+      <img src="polytime_api.png" alt="Скриншот 2">
+    </div>
+  </article>
+
+  <article class="news-item">
+    <div class="news-header">
+      <h2 class="news-title">Мобильное приложение личного кабинета</h2>
+      <span class="news-date">3 апреля 2025</span>
+    </div>
+
+    <p class="news-description">
+      Достигнуто большое количество результатов в разработке Android версии.
+      Были улучшены меры безопасности, исправлены визуальные баги. Свайп-пейджер
+      имплементирован в приложение вместе с иконками под гайдлайн Android версии.
+      Также началась разработка основного сплеш экрана. В IOS версии добавлены
+      прототипы из Figma.
+    </p>
+
+    <div class="news-gallery">
+      <img src="ioslk_1.png" alt="Скриншот 1">
+    </div>
+  </article>
+
+  <article class="news-item">
+    <div class="news-header">
+      <h2 class="news-title">Веб версия личного кабинета</h2>
+      <span class="news-date">5 марта 2025</span>
+    </div>
+
+    <p class="news-description">
+      Была организована работа команды через регулярные встречи, что позволяет
+      оперативно обсуждать выявленные баги и распределять задачи. На промежуточном этапе
+      проекта создана упорядоченная база данных с актуальными багами личного
+      кабинета. На текущий момент их 51. Контакт с техническим руководителем
+      находится в стадии согласования. В планах полноценно присоединиться к 
+      команде разработки ЛК.
+    </p>
+
+    <div class="news-gallery">
+      <img src="lkofbugs.png" class="lkofbugs" alt="Скриншот 1">
+      <img src="lk_polytech.png" alt="Скриншот 1">
+    </div>
+  </article>
+
+</body>
+</html>

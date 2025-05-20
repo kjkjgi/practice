@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Участники</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <header>
+    <nav>
+        <div class="logo">
+            <img src="logo.png" alt="Логотип Политеха">
+        </div>
+
+        <div class="project-title">ИТ-сервисы для Цифрового университета</div>
+
+        <div class="menu">
+            <a href="main.html">Главная</a>
+            <a href="about.html">О проекте</a>
+            <a href="members.html">Участники</a>
+            <a href="log.html">Журнал</a>
+            <a href="resource.html">Ресурсы</a>
+        </div>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h1>Участники</h1>
+  </section>
+
+  <main class="members-page">
+    <!-- Первый участник (вы) -->
+    <div class="main-member">
+      <h2>Махоткин Александр Михайлович</h2>
+      <p>Работа над реализацией сервиса визуализации данных колл-центра</p>
+    </div>
+
+    <div class="contribution-block">
+      <div class="photo-container-1">
+        <img src="grafana_archytect.png" alt="Фотография участника">
+      </div>
+      <div class="contribution-text">
+        <p>
+        Для реализации была разработана архитектура (представлена на&nbsp;схеме).
+        Вуз использует систему Asterisk в&nbsp;качестве автоматической телефонной станции,
+        данные из&nbsp;нее собираются в&nbsp;базу данных при помощи стороннего приложения и
+        подключаются к&nbsp;сервису Grafana для дальнейшей визуализации.
+        </p>
+      </div>
+    </div>
+
+    <div class="contribution-block">
+      <div class="contribution-text">
+        <p>
+        Фрагмент скрипта, который подключается к AMI Asterisk, на языке Python.
+        Данный код забирает данные из телефонии и запускает их обработчик.
+        Сохраняются имя очереди, количество звонков (принятых и отклонённых), время
+        удержания, звонка и так далее. После чего эти данные записываются в строки
+        базы данных.
+        </p>
+      </div>
+      <div class="photo-container-2">
+        <img src="python_script.png" alt="Фотография участника">
+      </div>
+    </div>
+
+    <div class="contribution-block">
+      <div class="photo-container-3">
+        <img src="grafana_sql.png" alt="Фотография участника">
+      </div>
+      <div class="contribution-text">
+        <p>
+        Также мне удалось попрактиковаться в написании sql запросов в Grafana.
+        </p>
+      </div>
+    </div>
+
+    <div class="contribution-block">
+      <div class="contribution-text">
+        <p>
+        На данный момент реализовано только два параметра, впереди реализация еще,
+        как минимум, десяти. Система ещё не готова к работе, но мы проводим тесты. 
+        В будущем также планируется разработка полноценной промежуточной среды для сбора
+        данных.
+        </p>
+      </div>
+      <div class="photo-container-4">
+        <img src="grafana-result.png" alt="Фотография участника">
+      </div>
+    </div>
+
+    <div class="main-member">
+      <h2>Филатова Анфиса Дмитриевна</h2>
+      <p>Работа над веб версией личного кабинета</p>
+    </div>
+
+    <div class="contribution-block">
+      <div class="photo-container-5">
+        <img src="lk_prototype_1.png" alt="Фотография участника">
+      </div>
+      <div class="contribution-text">
+        <p>
+        В ходе проектной деятельности я познакомилась с основами веб-программирования,
+        научилась создавать структуры веб-страниц, размещать текстовые элементы, изображения
+        и ссылки. В качестве практики я разрабатывала прототип личного кабинета.
+        </p>
+      </div>
+    </div>
+
+    <div class="contribution-block">
+      <div class="contribution-text">
+        <p>
+        Я изучила основные html тэги и структуру написания кода на этом языке.
+        Для визуального оформления элементов использовался css.
+        </p>
+      </div>
+      <div class="photo-container-6">
+        <img src="lk_prototype_2.png" alt="Фотография участника">
+      </div>
+    </div>
+
+    <div class="contribution-block">
+      <div class="photo-container-6">
+        <img src="lk_prototype_3.png" alt="Фотография участника">
+      </div>
+      <div class="contribution-text">
+        <p>
+        Помимо главной страницы я также работала над страницей личных данных.
+        </p>
+      </div>
+    </div>
+
+    <div class="contribution-block">
+      <div class="contribution-text">
+        <p>
+        Таким образом, я освоила html и css, создала каркас личного кабинета
+        студента, который можно дорабатывать в будущем. Я поняла как работать
+        с разметкой и стилями, все эти знания пригодятся мне для дальнейшего
+        изучения веб-разработки.
+        </p>
+      </div>
+      <div class="photo-container-6">
+        <img src="lk_prototype_4.png" alt="Фотография участника">
+      </div>
+    </div>
+
+    <div class="main-member">
+      <h2>Городецкий Михаил Олегович</h2>
+      <p>Работа над мобильной версией личного кабинета</p>
+    </div>
+
+    <div class="contribution-block">
+      <div class="photo-container-7">
+        <img src="backend_1.png" alt="Фотография участника">
+      </div>
+      <div class="contribution-text">
+        <p>
+        До проектной деятельности у меня уже был некоторый опыт в написании бэкэнда,
+        поэтому я присоединился к команде, разрабатывающей мобильную версию личного
+        кабинета студента.
+        </p>
+      </div>
+    </div>
+
+    <div class="contribution-block">
+      <div class="contribution-text">
+        <p>
+        Я помогал реализовывать самые базовые функции личного кабинета.
+        </p>
+      </div>
+      <div class="photo-container-8">
+        <img src="backend_2.png" alt="Фотография участника">
+      </div>
+    </div>
+
+    <div class="contribution-block">
+      <div class="photo-container-9">
+        <img src="backend_3.png" alt="Фотография участника">
+      </div>
+      <div class="contribution-text">
+        <p>
+        На данный момент практически полностью готовы страницы авторизации и
+        главная страница.
+        </p>
+      </div>
+    </div>
+
+    <div class="contribution-block">
+      <div class="contribution-text">
+        <p>
+        Вместе с командой разработчиков мы изучаем данные API и продолжаем верстку,
+        пока что, черновых экранов, пока команда дизайна занята проработкой каждого
+        из экранов.
+        </p>
+      </div>
+      <div class="photo-container-10">
+        <img src="backend_4.png" alt="Фотография участника">
+      </div>
+    </div>
+
+  </main>
+
+</body>
+
+</html>
